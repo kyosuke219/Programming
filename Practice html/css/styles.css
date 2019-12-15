@@ -1,0 +1,40 @@
+h1{
+ color:red;
+ color:rgb(255,255,255);
+ /* color:#0f0 */
+}
+/* 色の指定 */
+
+body{
+  font-family:Verdana, sans-serif; /* フォントの指定 */
+}
+
+
+header{
+  background-color:red; /*背景色の指定 */
+}
+
+/* padding,border,margin
+   width,height
+*/
+
+/*
+<div class="name">
+.name で指定した箇所のレイアウトだけをいじることが可能
+
+✳︎例
+<div class="forum">
+
+.forum{
+ background-color:red;
+ width:400px
+ margin-left:auto;
+ margin-right:auto;
+}
+
+*/
+
+
+
+/* Flexbox */
+display: flex;
