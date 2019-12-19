@@ -34,6 +34,7 @@ echo MY_EMAIL;
 var_dump(__LINE__); #現在の行数を出力
 var_dump(__FILE__); #ファイル名を出力
 var_dump(__DIR__);  #ディレクトリ名を出力
+var_dump(isset($x)); #isset()で中身が過去に使われたか確かめる
 ?>
 <br>
 <p>・数値演算</p>
