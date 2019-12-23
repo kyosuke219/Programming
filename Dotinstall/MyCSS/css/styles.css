@@ -9,7 +9,7 @@ header{
   background: center/cover pink url(../img/header.png);
 }
 
-h1 {
+body > h1 {
   color: rgba(255,0,0,0.5);
   font-size: 48px;
   text-align: center;
@@ -35,7 +35,7 @@ img{
   float: right;
 }
 
-ul {
+body > ul {
   /* list-style-type: circle;
   list-style-image: url(../img/icon.png); */
   list-style: circle inside url(../img/icon.png);
@@ -187,3 +187,63 @@ ol {
 h2{
   clear: right;
 }
+
+.btn {
+  width: 100px;
+  background: skyblue;
+  text-align: center;
+  padding: 4px;
+  color:white;
+  cursor:pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.nth{
+  background: lightgray;
+}
+
+/* .nth > :nth-child(odd){
+  background: pink;
+}
+
+.nth > :nth-child(even){
+  background: skyblue;
+} */
+
+.nth > :first-child{
+  background: pink;
+}
+
+.nth > :last-child{
+  background: skyblue;
+}
+
+.nth > h2:nth-of-type(2){
+  background: tomato;
+}
+
+.nth > h2:last-of-type {
+  background: navy;
+  color: white;
+}
+
+.empty {
+  background: skyblue;
+}
+
+li:empty{
+  background: tomato;
+}
+
+li:not(:empty){
+  background: lightgray;
+}
+
+h1{color:red !important;}
+h1#main.box{color:yellow !important;}
+section > #main.title{ color:blue;}
+section#about > h1 {color:pink;}
+#about > #main {color:gray;}
